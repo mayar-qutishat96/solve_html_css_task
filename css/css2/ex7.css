@@ -1,0 +1,9 @@
+
+div.a{text-decoration:none;text-transform:none;text-align: left;font-style:normal;color: red;}
+div.b{text-decoration:none;text-transform:none;text-align: left;font-style:normal;color: greenyellow;font-family: arial;font-weight: bold;}
+div.c{text-decoration:underline;text-transform:none;text-align:center;font-style:normal;color:blue;background-color: aquamarine; font-family: Verdana;} 
+div.d{text-decoration:none;text-transform:uppercase;text-align: left;font-style:normal;color:pink;text-shadow:1px 1px black;}
+div.e{text-decoration:line-through;text-transform:none;text-align: right;font-style:normal;color: orange; font-weight: bold;}
+div.f{text-decoration:underline;text-transform:none;text-align: left;font-style:normal;color: yellow;text-decoration-color: red;font-weight: bold;}
+div.g,a{text-decoration:underline;text-transform:none;text-align: left;color: blue;}
+ 

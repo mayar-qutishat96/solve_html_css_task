@@ -1,0 +1,10 @@
+#main
+{
+    position: sticky;
+    background-color: black;
+    padding: 1.5px;}
+
+    .home,.About,.contact{
+        display: inline;
+        padding-right: 50px;
+        color: white;}

@@ -1,0 +1,13 @@
+body{background-color:navajowhite;}
+.a{border: 10px solid white;background-color: white;color: red;}
+
+.b{border: 1px solid white;background-color: white;color:burlywood;
+background-image:url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg") ;}
+
+#c{border: 0.5px solid white;background-color: white;color:blue;width:300;
+    height: 200px;background-image: url("https://static.vecteezy.com/system/resources/thumbnails/024/100/171/small_2x/light-pastel-purple-blue-white-grainy-gradient-blurred-background-abstract-header-poster-banner-design-copy-space-photo.jpg") ,
+    url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg");
+    background-repeat:no-repeat; background-position: center, left,right;
+    background-size: 988px,1700px;
+
+}

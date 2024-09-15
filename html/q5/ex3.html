@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+   <style>
+ #border {
+  border-style: solid;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+        
+    }
+
+    </style>
+</head>
+<body>
+    <div id="border">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="">
+    <br>  
+    <br>
+    <label for="gender">Gender:</label>  
+<input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+<br>
+<br>
+<label for="country">Country:</label> 
+<select id="country" name="country">
+  <option value="select" required >Select an option</option>
+    <option value="Jordan">Jordan</option>
+    <option value="Ksa">Ksa</option>
+    <option value="Uk" selected>Uk</option>
+    <option value="Uae">Uae</option>
+  </select>
+  <br>
+  <br>
+  <label for="massage"> massage:</label><br>
+        <textarea id="massage" name="massage" rows="4" cols="20">
+        </textarea>
+        <br>
+
+        <input type="checkbox" id="Subscribe" name="Subscribe" value="Subscribe">
+        <label for="vehicle1"> Subscribe</label><br>
+
+        <br>
+        <input type="submit" value="Submit">     
+</div>
+</body>
+</html>

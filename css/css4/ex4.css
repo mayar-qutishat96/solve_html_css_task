@@ -1,0 +1,48 @@
+div.a{position:relative;border:50px solid red;
+    background-color :red; top:133px;left:299px; 
+    width:20px; height:5px;padding-right:2px;z-index:1;}
+
+
+div.b{position: absolute;border:50px solid cornflowerblue ;
+    background-color :cornflowerblue; top:60px;left:400px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.c{position: absolute;border:50px solid yellow ;
+    background-color :yellow; top:60px;left:550px; 
+    width:20px; height:5px;padding-right:2px;}
+div.d{position: absolute;border:50px solid green ;
+    background-color :green; top:60px;left:690px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.e{position: absolute;border:50px solid plum ;
+    background-color :plum; top:200px;left:240px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.f{position: absolute;border:50px solid hotpink;
+    background-color :hotpink; top:200px;left:400px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.g{position:absolute;border:50px solid red;
+    background-color :red; top:199px;left:545px; 
+    width:20px; height:5px;padding-right:2px;}
+
+
+div.h{position:absolute;border:50px solid cornflowerblue ;
+    background-color :cornflowerblue; top:200px;left:690px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.m{position:absolute;border:50px solid green ;
+    background-color :green; top:350px;left:240px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.n{position: absolute;border:50px solid yellow ;
+    background-color :yellow; top:350px;left:400px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.z{position:absolute;border:50px solid plum ;
+    background-color :plum; top:350px;left:550px; 
+    width:20px; height:5px;padding-right:2px;}
+
+div.x{position:absolute;border:50px solid hotpink ;
+    background-color :hotpink; top:350px;left:690px; 
+    width:20px; height:5px;padding-right:2px;}

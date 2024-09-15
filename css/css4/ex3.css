@@ -1,0 +1,17 @@
+
+div.a{position: absolute;border:77px solid red;
+ background-color: red; top:00px;left:0px; width:20px; height:5px;
+padding-left:2px;}
+
+div.b{position: absolute;border:77px solid blue;
+    background-color:blue; top:00px;right:2px; width:20px; height:5px;
+   padding-right:2px;}
+
+div.c{position: absolute;border:77px solid yellow;
+    background-color: yellow; top:400px;left:0px; width:20px; height:5px;
+   padding-left:2px;}
+
+div.d{position: absolute;border:77px solid green;
+    background-color :green; top:400px;right:2px; width:20px; height:5px;
+   padding-right:2px;}
+
