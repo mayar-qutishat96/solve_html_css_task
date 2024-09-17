@@ -1,0 +1,19 @@
+section{
+  display: flex;
+  background-color: gray;
+
+}
+div{
+  height: 70px;
+  
+}
+  
+.darkcyan{
+  background-color:darkcyan;
+  flex-grow: 2;
+}
+.red{
+  background-color:red;
+  flex-grow: 1;
+}
+

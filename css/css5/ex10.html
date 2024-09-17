@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task10</title>
+    <style>
+        header nav {
+            display: inline-flex;
+            flex-grow: 2;
+            flex-direction: row;
+            background-color: darkblue;
+            width: 100%;
+        }
+        header nav ul div {
+            list-style-type: none;
+            display: inline-flex;
+            justify-content: space-around;
+            padding: 10px;
+            margin-right:100px;
+
+        }
+        header nav ul  div  li{
+            padding-right: 6px;
+            margin-right:5px; 
+            flex-grow: 4;
+        }
+          .start  {
+          flex-grow: 3;
+            position: relative;
+            right: 50px;
+            justify-content: flex-start;
+            color: white;
+           
+
+        }
+         .end {
+            flex-direction: row;
+            justify-content: flex-end;
+            position: relative;
+            left: 812px;
+            color: white;
+            
+
+        }
+        li{
+            
+            font-size: 16px;
+            text-align: center;
+            text-transform: capitalize;
+            margin-left:7px;
+        }
+        main{
+            display: block;
+            align-items: center;
+            justify-content: center;
+           
+            width:100%;
+            height: 500px;
+
+        }
+        main section{
+            position: relative;
+            top: 51px;
+            left: 449px;
+        }
+        .img img{
+            display: flex;
+            width: 300px;
+            height: 300px;
+            border: 1px solid white;
+            border-radius: 50px;
+            align-items: center;
+            
+            
+        }
+        .input input{
+            border: 1px solid white;
+            border-radius:70px ;
+            background-color:darkblue;
+            margin: 10px;
+            align-items: center;
+            position: relative;
+            left: -7px;
+            width: 300px;
+            height: 50px;
+        }
+         .button button{
+            border: 1px solid white;
+            border-radius:70px ;
+            background-color: white;
+            margin: 10px;
+            align-items: center;
+            position: relative;
+            left: -16px;
+            width: 150px;
+            height: 30px;
+         }
+          footer nav {
+            display: inline-flex;
+            flex-grow: 2;
+            flex-direction: row;
+            background-color:darkblue;
+            width: 100%;
+        }
+        footer nav ul div {
+            list-style-type: none;
+            display: inline-flex;
+            justify-content: space-around;
+            padding: 10px;
+            margin-right:100px;
+
+        }
+        footer nav ul  div  li{
+            padding-right: -10px;
+            margin-right:5px; 
+        }
+          .start  {
+          flex-grow: 3;
+            position: relative;
+            right: 50px;
+            justify-content: flex-start;
+            color: white;
+           
+
+        }
+         
+
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+            <ul>
+            <div class="start">
+                <li>ِabout</li>
+                <li>Store</li>
+            </div>
+            <div class="end">
+                <li>Puplic</li>
+                <li>Setting</li>
+            </div>
+        </ul>
+    </nav>
+    
+    </header>
+    <main>
+       <section>
+        <div class="img"><img src="webapp.png" 
+            alt="web application"></div>
+        <div class="input"><input type="text" name="search" ></div>
+        <div class="button">
+            <button>Do the thing</button>
+            <button>Do the another thing</button>
+        </div>
+       </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+               <div class="start">
+                <li>Advertizng</li>
+                <li>Business</li>
+               </div>
+               <div class="end">
+                <li>Pravicy</li>
+                <li>Terms</li>
+               </div>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

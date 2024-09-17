@@ -1,0 +1,23 @@
+.main{display: flex;height:300px;
+    width: 500px;flex-direction:row;text-align:center;}
+
+
+
+    
+.a {
+    background-color:lavender;
+    width:250px;height:250px;
+    border: 1px  groove   black;
+}
+.b{
+    background-color:palevioletred;width:250px;height:250px;
+    border: 1px  groove  black; 
+  
+    
+    
+}
+
+.c {
+    background-color:lightblue;width:250px;height:250px;
+    border: 1px  groove  black;
+}

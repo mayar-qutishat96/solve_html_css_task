@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic YouTube Layout</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color:darkred;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.user-icon {
+    background-color:#555;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 60px; /* Adjust for fixed header */
+}
+
+.sidebar {
+    width: 200px;color: white;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background-color: #ddd;
+}
+
+.video-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.video-player {
+    margin-bottom: 20px;
+}
+
+.video-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.video-info p {
+    color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">MyTube</div>
+        <input type="text" class="search-bar" placeholder="Search...">
+        <div class="user-icon">User</div>
+    </header>
+    
+    <div class="main-content">
+        <aside class="sidebar">
+            <ul>
+                <li>Home</li>
+                <li>Trending</li>
+                <li>Subscriptions</li>
+                <li>Library</li>
+                <li>History</li>
+            </ul>
+        </aside>
+        
+        <div class="video-container">
+            <div class="video-player">
+                <iframe width="789" height="444" src="https://www.youtube.com/embed/wRNinF7YQqQ" title="Learn CSS in 1 hour 🎨" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+                <h1>Learn CSS in 1 hour</h1>
+                <p>Video description goes here...</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
