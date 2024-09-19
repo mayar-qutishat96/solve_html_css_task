@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 1rem;
+           
+        }
+        .item
+        {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            border-style:ridge;
+            padding: 1.5rem;
+        
+        }
+        .image
+        {
+            text-align: center;
+            height:60px;
+        }
+        img
+        {
+            width: 30%;
+            border-radius: 10%;
+            padding: 5px;
+        
+        }
+        .content
+        {
+           padding-left: 10px;
+         ;
+           height: 200px;
+        }
+        .btn
+        {
+          text-align: center;
+          padding: 10px;
+          align-content: flex-end;
+        }
+        .btn-buy
+        {
+            padding: 10px;
+            width: 80%;
+            padding: 5px;
+            background-color: rgb(67, 172, 172);
+            color: aliceblue;
+            border-radius: 10px;
+           
+        }
+        p{
+            margin-top: -1rem;
+        }
+        </style>
+ 
+</head>
+<body>
+    <div class="container">          
+    <div class="item item1">
+        <div class="image">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Crystal_Project_computer.png" alt="">
+        </div>
+        <div class="content">
+           <h3 class="title">
+            Computer Starter Kit
+           </h3>
+           <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint officiis dolores reiciendis cumque aut accusamus!
+           </p>
+           <ul>
+            <li>Computer</li>
+            <li>Moniter</li>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+           </ul>
+        </div>
+        <div class="btn">
+            <input  class="btn-buy"type="button" value="BUY NOW">
+           </div>
+    </div>     
+    <div class="item item2">
+        <div class="image">
+             <img src="printer1.PNG" alt="">
+        </div>
+        <div class="content">
+           <h3 class="title">
+            Printer
+           </h3>
+           <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint 
+           </p>
+           <ul>
+            <li>Paper and ink not included</li>
+           </ul>
+           
+        </div>
+        <div class="btn">
+            <input  class="btn-buy"type="button" value="BUY NOW">
+         </div>
+    </div>     
+     <div class="item item3">
+        <div class="image">
+             <img src="printer2.PNG" alt="">
+        </div>
+        <div class="content">
+           <h3 class="title">
+            Printer 2
+           </h3>
+           <p>
+           A la 1989
+           </p>
+          
+           
+          
+        </div>
+        <div class="btn">
+            <input  class="btn-buy"type="button" value="BUY NOW">
+           </div>
+    </div>      <div class="item item4">
+        <div class="image">
+          <img src="mouse2.PNG" alt="">
+        </div>
+        <div class="content">
+           <h3 class="title">
+             Mouse
+           </h3>
+           <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint officiis dolores reiciendis cumque aut accusamus!
+           </p>
+           
+          
+        </div>
+        <div class="btn">
+            <input  class="btn-buy"type="button" value="BUY NOW">
+           </div>
+    </div>      <div class="item item5">
+        <div class="image">
+             <img src="computer2.PNG" alt="">
+        </div>
+        <div class="content">
+           <h3 class="title">
+            Macintosh 8500
+           </h3>
+           <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint officiis dolores reiciendis cumque aut accusamus!
+           </p>
+          
+        </div>
+        <div class="btn">
+            <input  class="btn-buy"type="button" value="BUY NOW">
+           </div>
+    </div>                       
+     </div>                  
+   
+</body>
+</html>

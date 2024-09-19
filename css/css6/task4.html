@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JS, Coding Academy, Orange">
+    <link rel="icon" href="favicon.png">
+    <title>Orange Academy</title>
+
+    <style>
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            position: relative;
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .label {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: rgba(0, 0, 0, .5);
+            color: white;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="item">
+            <img src="https://www.ucl.ac.uk/news/sites/news/files/styles/large_image/public/bright-and-beautiful-dramatic-super-moon-over-the-ocean-with-small-boat-and-reflection-of.jpg_s1024x1024wisk20cvyzno6cygej5tvtkwghz2ekoajmc_msoxkzh5bgkuek.jpg?itok=NC5FBTP2" alt="Image 1">
+            <div class="label">Available</div>
+        </div>
+
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO-03370dpQ4fyjYylSUHmaKhup5lM-DzQ3g&s" alt="Image 2">
+            <div class="label">Sold</div>
+        </div>
+
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Halleyparknovember_b.jpg/800px-Halleyparknovember_b.jpg" alt="Image 3">
+            <div class="label">Sold</div>
+        </div>
+        
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYzgeFyYu-bVp7JWdnMZj0kp2fCqX6s9ZsQ&s" alt="Image 4">
+            <div class="label">Available</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+ 

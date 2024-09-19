@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+<style>
+*{box-sizing: border-box;margin: 0;padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;background-color: azure;
+    padding: 10px;
+    height: 100vh;
+}
+.form-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-form
+{
+   position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255,183,0);
+    top: 30px;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+   
+}
+form{
+    width: 80%;
+}
+.nav-form select
+{
+  
+   height: 50px;
+   border: 2px solid rgb(255,183,0);
+   border-radius: 8px;
+   
+ 
+}
+.nav-form
+{}
+
+
+.form-container
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  
+
+form{padding-inline:24px;
+    width: 80%;
+}
+.nav-form select
+{
+  
+   height: 60px;
+   border: 2px solid rgb(255,183,0);
+   border-radius: 8px;
+   
+ 
+}
+
+
+
+
+.container{display: flex;gap:60px;
+justify-content: center;
+align-items: center;}
+nav-bar
+{
+    background-color:#003b95 ;
+    color: white;
+    padding: 10px 40px 10px 40px;
+}
+
+.full-upper-nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+.nav-bar .logo
+  {
+  font-size: larger;
+  font-weight: 1000;
+  padding: 20px;
+  }
+  
+.upper-nav{
+    list-style: none;
+    display: flex;
+    justify-content:end;
+}.upper-nav li
+{
+   padding: 15px;
+   
+}
+.seconed-nav
+{
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    padding: 0px 20px 0px 0px
+}
+.seconed-nav li{
+    padding: 20px;
+}
+.nav-heading
+{
+   
+    justify-content: start;
+    align-items: start;
+    padding-left: 15px;
+
+}
+.nav-heading h1
+{
+    font-weight: bolder;
+}
+header {
+    background-color: navy;
+    color: white;
+    padding: 60px 30px;
+}
+
+li{text-align: center;margin: 0;padding: 0;}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.nav-links ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 140px;
+    
+}
+
+.Room
+{
+display:grid;grid-row:10px;grid-template-columns: auto auto auto;
+   
+    gap:20px;
+}
+
+
+.logo h1 {
+    margin: 0;
+}
+.nav-links{list-style-type: none;background-color:navy;
+    color:#fff;text-align: center;
+}
+
+footer {margin-top: 70px;padding-bottom:50px;
+    background-color:navy;
+    color: #fff;}
+
+
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+          <div class="Nav-list">
+            <div class="full-upper-nav">
+              <div class="logo">BOOKING.COM</div>
+              <ul class="upper-nav">
+                <li>JOD</li>
+                <li>Country icon</li>
+                <li>Question mark</li>
+                <li>List your property</li>
+                <li><button type="submit">Register</button></li>
+                <li><button type="submit">Sign in</button></li>
+              </ul>
+            </div>
+            <br>
+            <ul class="seconed-nav">
+              <li>Stays</li>
+              <li>Flight</li>
+              <li>Car Rental</li>
+              <li>Attractions</li>
+              <li>Airport Taxi</li>
+            </ul>
+            <div class="nav-heading">
+              <h1>Find your next stay</h1>
+              <h2>Search deals on hotels, homes, and much more...</h2>
+          </div></div>
+          <div class="form-container">
+            <div class="nav-form">
+              <form class="">
+                <label for="location"></label>
+    
+                <select name="location" id="location">
+                  <option value="" disabled selected>
+                    Where are you going to?
+                  </option>
+                  <option value="Amman"></option>
+                  <option value="LA"></option>
+                </select>
+    
+                <label for="location"></label>
+                <select name="location" id="location">
+                  <option value="" disabled selected>
+                    Where are you going to?
+                  </option>
+                  <option value="Amman"></option>
+                  <option value="LA"></option>
+                </select>
+    
+                <label for="location"></label>
+                <select name="location" id="location">
+                  <option value="" disabled selected>
+                    Where are you going to?
+                  </option>
+                  <option value="Amman"></option>
+                  <option value="LA"></option>
+                </select>
+              </form>
+        </div>
+    </header>
+    <main>
+        <br>
+        <br>
+      
+       
+           
+<div class="container">
+ <div class="room">
+                <img src="https://media.istockphoto.com/id/1050564510/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=ZYEso7dgPl889aYddhY2Fj3GOyuwqliHkbbT8pjl_iM="alt="Room1"
+                width="200px height=50px">
+                <h3>Royel</h3>
+                <p>1 beds · 1 bath </p>
+                <button>Book Now</button>
+            </div>
+        
+
+
+    <div class="room">
+        <img src="https://img.freepik.com/premium-photo/hotel-room-with-bed-table-with-two-lamps-view-ocean_865967-343046.jpg"alt="Room2"
+        width="200px height=50px">
+        <h3>Roye2</h3>
+        <p>2 beds · 1 bath · Balcony</p>
+        <button>Book Now</button>
+    </div>
+   
+    <div class="room">
+        <img src="https://images.unsplash.com/photo-1631049552057-403cdb8f0658?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjBiZWRyb29tfGVufDB8fDB8fHww" alt="room3"
+        width="220px height=60px">
+        <h3>Modern Loft</h3>
+        <p>1 beds · 1 bath · sofa</p>
+        <button>Book Now</button>
+</div>
+<div class="room">
+    <img src="https://lh6.googleusercontent.com/LAbDs9JrwGjxAAQoHT1lNnKt4a5_OXDqw7S3hZQajGS30XvPwjynPOA8-afixA6QqxL_g7iPn12dRWTO40GhEyPS7n7CDzRYg61Ib334yCK6ZIPjLNZbZExrLk_8BPvf83fq1Qte" alt="room4"
+    width="220px height=60px">
+    <h3>Modern Loft</h3>
+    <p>2 beds · 1 bath </p>
+    <button>Book Now</button>
+</div>
+
+
+
+
+</div>
+
+    </main>
+   
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left" style="text-align: center;padding:20px">
+                <p>&copy; 2024 Booking.com . All rights reserved.</p>
+            </div>
+          </div>
+   </div>
+
+
+        </footer>
+            </body>
+            </html>
